@@ -6,12 +6,13 @@
     font-family: 'Manrope', sans-serif;
 }
 body{
-    width: 100vw;
+    width: 100%;
+    display: flex; 
+justify-content: center;
+background-color: #FF6433;
 }
 #page-container{
-width: 80vw; 
-display: flex; 
-justify-content: center;
+width: 80%; 
  scroll-behavior: none;
 }
 .main-header {
