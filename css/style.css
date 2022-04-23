@@ -6,7 +6,7 @@
     font-family: 'Manrope', sans-serif;
 }
 #page-container{
-width: 80%;  
+width: 80vw;  
  margin: auto;
  scroll-behavior: none;
 }
