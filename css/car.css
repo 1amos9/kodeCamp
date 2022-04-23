@@ -263,7 +263,7 @@ display: flex;
 .offers-container{
     display: block;
     background-color: #F2F2F2;
- 
+    height: 30rem;
 }
 .image-offer{
     display: flex;
@@ -413,24 +413,24 @@ background-color: #FAFAFA;
     gap: 1px;
     width: 1200px;
 }
-.main-half-six {
+.about {
     width: 100%;
     height: 100vh;
     background-color: #F2F2F2;
 }
-.main-half-six h1 {
+.about h1 {
     text-align: center;
     font-size: 45px;
     padding-top: 55px;
 }
-.main-half-six-2 {
+.about-2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
     text-align: center;
     position: relative;
 }
-.six-one {
+.comment {
     width: 35%;
     height: 40vh;
     background-color: #fff;
@@ -446,16 +446,16 @@ background-color: #FAFAFA;
     top: 100px;
     left: 51%;
 }
-.six-one-first {
+.comment-first {
     display: flex;
     float: left;
     width: 52%;
     text-align: left;
 }
-.six-one-first img {
+.comment-first img {
     margin-left: 0px;
 }
-#six-one-first {
+#comment-first {
     padding: 48px;
 }
 .text {
