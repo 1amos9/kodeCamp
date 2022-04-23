@@ -336,7 +336,7 @@ background-color: #FF6433;
     height: 20rem;
 }
 #tools .tools-image .tool-car{
-    width: 24rem;
+    width: 19rem;
     
     height: 20rem;
 }
@@ -416,7 +416,7 @@ background-color: #FAFAFA;
     display: flex;
     flex-wrap: wrap;
     gap: 1px;
-    width: 1200px;
+    width: 120px;
     margin-left: 10%;
 }
 .about {
