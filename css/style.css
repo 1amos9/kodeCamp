@@ -465,12 +465,12 @@ background-color: #FAFAFA;
     text-align: justify;
     float: left;
 }
-.six-three .line {
+.comment-three .line {
     position: absolute;
     top: 480px;
     left: 43%;
 }
-.six-three .six-three-left {
+.comment-three .comment-three-left {
     position: absolute;
     top: 480px;
     left: 79%;
