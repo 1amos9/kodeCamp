@@ -5,8 +5,11 @@
     box-sizing: border-box;
     font-family: 'Manrope', sans-serif;
 }
+body{
+    width: 100vw;
+}
 #page-container{
-width: 80vw;  
+width: 80%;  
  margin: auto;
  scroll-behavior: none;
 }
