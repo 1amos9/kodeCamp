@@ -5,13 +5,9 @@
     box-sizing: border-box;
     font-family: 'Manrope', sans-serif;
 }
-html{
-    width: 100vw;
-}
 #page-container{
 width: 80%;  
-display: flex;
-justify-content: center;
+ margin:auto;
  scroll-behavior: none;
 }
 .main-header {
