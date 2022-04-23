@@ -1,0 +1,476 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+#page-container{
+width: 80%;  
+ margin: auto;
+}
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5px;
+    
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+}
+
+.right-section ul {
+    list-style: none;
+    display: flex;
+}
+
+.road-assistance {
+    display: flex;
+    padding-left: 20px;
+}
+
+.right-section ul li {
+    margin-right: 20px;
+}
+
+.right-section ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.right-section .navigation {
+    border-right: 2px solid #ccc;
+}
+
+.road-assistance .icon {
+    margin-right: 10px;
+}
+
+.flex {
+    display: flex;
+}
+
+#introduction-section .text-section{
+    width: 45%;
+} 
+
+#introduction-section .image-section {
+    width: 55%;
+}
+
+#introduction-section, #quote-section {
+    padding: 80px 0;
+}
+
+#introduction-section .image-section {
+    background-image: url(../img/header.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 68vh;
+}
+
+.text-section h1 {
+    font-size: 64px;
+}
+
+.orange-btn {
+    background: #FF6433;
+    border-radius: 12px;
+    padding: 16px 40px;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 35px;
+    display: inline-block;
+    color: #fff;
+}
+
+.time-section {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.text-section .image-box {
+    width: 5%;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-section .time-text {
+    width: 95%;
+}
+.time-section img {
+    width: 100%;
+}
+
+.light-grey {
+    color: #939191;
+}
+
+#quote-section {
+    background: #E2E6E9;
+    display: flex;
+    justify-content: space-between;
+}
+
+#quote-section .left-section, #quote-section .right-form-section {
+    width: 45%;
+    
+}
+#quote-section .right-form-section{
+    margin-left: 21%;
+}
+#quote-section ul {
+    list-style: none;
+}
+
+#quote-section ul li {
+    margin-bottom: 20px;
+}
+
+
+#quote-section .left-section h2 {
+    margin-bottom: 30px;
+    font-size: 58px;
+}
+
+#quote-section .left-section .image-box {
+    width: 5%;
+    margin-right: 10px;
+}
+
+#quote-section .left-section .image-box img {
+    width: 100%;
+}
+
+
+#quote-section .left-section .text-box {
+    width: 50%;
+}
+
+#quote-section .left-section .text-box h5 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+#quote-section .left-section .text-box a{
+    text-decoration: none;
+    color: #000;
+    font-size: large;
+}
+#quote-section .left-section .text-box #arrow{
+margin-left: 10px;
+}
+
+#quote-section .right-form-section h3{
+    font-size: 48px;
+}
+
+#quote-section .right-form-section input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#process{
+   display: flex;
+    
+    
+   
+}
+#process .appointment{
+    width: 45%;
+
+    margin-left: 21%;
+   
+}
+#process .clear-text h1{
+    width: 524px;
+    height: 228px;
+   margin-top: 80px;
+   
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 76px;  
+    letter-spacing: -0.03em;
+}
+#process .button-more input[type=more]{
+    background: #FF6433;
+    align-items: flex-start;
+    padding: 16px 40px;
+    border-radius: 12px;
+    color: #fff;
+    bottom: 68.58%;
+    top: 30%;
+    width: 150px;
+    margin-left: 10%;
+    margin-right: 80.31%;
+    margin-top: 10%;
+    margin-bottom: 20%;
+}
+.appointment{
+margin-left: 7rem;
+}
+.appointment .one-get-quote{
+display: flex;
+
+}
+.appointment .one-get-quote .imsge-one {
+    margin-top: 1rem;
+}
+.appointment .one-get-quote .imsge-one .line img{
+   margin-left: 2rem;
+}
+.appointment .text-one{
+    margin-left: 1rem;
+    margin-top: 2rem;
+    line-height: 2rem;
+}
+.appointment .two-book-appointment{
+    display: flex;
+    
+    }
+    .appointment .two-book-appointment .imsge-two {
+        margin-top: 1rem;
+    }
+.appointment .two-book-appointment .imsge-two .line img{
+   
+        margin-left: 2rem;
+     }
+.appointment .text-two{
+        margin-left: 1rem;
+        margin-top: 2rem;
+        line-height: 2rem;
+    }
+.appointment .three-service-done{
+        display: flex;
+        
+ }
+ .appointment .three-service-done .imsge-three {
+    margin-top: 1rem;
+}
+ .appointment .text-three{
+    margin-left: 1rem;
+    margin-top: 2rem;
+    line-height: 2rem;
+}
+.offers-container{
+    display: block;
+    background-color: #F2F2F2;
+ 
+}
+.image-offer{
+    display: flex;
+    width: 670px;
+    flex-wrap: wrap;
+    gap: 10px;
+      margin: auto;
+   
+}
+.offers-container .text-offers{
+   display: block;
+   margin-left: 40%;
+    font-size: large;
+      
+    margin-bottom: 30px;
+    margin-top: 60px;
+   
+}
+.offers-container .text-offers p{
+    margin-left: 5rem;
+    font-size: small;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.box-offer{
+    padding: 2rem;
+   flex-basis: 10rem;
+   width: 90px;
+   border: 1px solid rgb(225, 219, 219);
+   text-align: center;
+   background-color: #fff;
+
+}
+#Box-wheel{
+color: #fff;
+background-color: #FF6433;
+
+}
+.offers-container .about a{
+        text-decoration: none;
+        color: #000;
+        font-size: large;
+}
+.offers-container .about img{
+    width: 40px;
+}
+.offers-container .about {
+      
+    margin-top: 0.5rem;
+    margin-left: 53.5rem;
+}
+#tools{
+   margin-top: 5rem;
+    display: flex;
+    
+    
+      
+   
+}
+#tools .tools-image{
+    width: 20rem;
+  
+}
+#tools .tools-image .car-image{
+    height: 20rem;
+}
+#tools .tools-image .tool-car{
+    width: 44rem;
+    
+    height: 20rem;
+}
+#tools .tools-text{
+    width: 20rem;
+    background-color: #FF6433;
+    display: block;
+    padding: 16px 40px;
+    color: #fff;
+    font-size: large;
+    padding-top: 5rem;
+}
+#tools .tools-text input[type="button"]{
+    color: #fff;
+    background-color: #000;
+    border-radius: 12px;
+    height: 50px;
+    width: 100px;
+    margin-top: 3rem;
+}
+#icon-number{
+   
+    margin-top: 1px;
+    display: flex;
+    height: 95px;
+    align-items: center;
+    justify-content: space-around;
+   background-color: #dbd2d2;
+   padding-bottom: 2rem;
+}
+#icon-number .professional{
+    height: 5px;
+    
+    align-items: center;
+}
+#icon-number .professional img{
+    height: 20px;
+    padding-left: 30px;
+}
+#icon-number .eperience{
+    height: 5px;
+
+    align-items: center;
+}
+#icon-number .eperience img{
+    height: 20px;
+    padding-left: 30px;
+}
+#icon-number .service{
+    height: 5px;
+
+    align-items: center;
+}
+#icon-number .service img{
+    height: 20px;
+    padding-left: 30px;
+}
+#icon-number .customer{
+    height: 5px;
+
+    align-items: center;
+}
+#icon-number .customer img{
+    height: 20px;
+    padding-left: 30px;
+}
+#brands{
+display: block;
+margin-top: 4rem;
+background-color: #FAFAFA;
+}
+#brands .serve{
+    margin-left: 32%;
+    font-size:large;
+}
+#brands .logo-brands{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1px;
+    width: 1200px;
+}
+.main-half-six {
+    width: 100%;
+    height: 100vh;
+    background-color: #F2F2F2;
+}
+.main-half-six h1 {
+    text-align: center;
+    font-size: 45px;
+    padding-top: 55px;
+}
+.main-half-six-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+.six-one {
+    width: 35%;
+    height: 40vh;
+    background-color: #fff;
+    position: absolute;
+    top: 100px;
+    left: 14%;
+}
+.six-two {
+    width: 35%;
+    height: 40vh;
+    background-color: #fff;
+    position: absolute;
+    top: 100px;
+    left: 51%;
+}
+.six-one-first {
+    display: flex;
+    float: left;
+    width: 52%;
+    text-align: left;
+}
+.six-one-first img {
+    margin-left: 0px;
+}
+#six-one-first {
+    padding: 48px;
+}
+.text {
+    color: black;
+    margin-top: 20px;
+    text-align: justify;
+    float: left;
+}
+.six-three .line {
+    position: absolute;
+    top: 480px;
+    left: 43%;
+}
+.six-three .six-three-left {
+    position: absolute;
+    top: 480px;
+    left: 79%;
+}
