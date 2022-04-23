@@ -7,12 +7,10 @@
 }
 body{
     width: 100%;
-    display: flex; 
-justify-content: center;
-background-color: #FF6433;
 }
 #page-container{
 width: 80%; 
+margin: auto;
  scroll-behavior: none;
 }
 .main-header {
