@@ -10,7 +10,8 @@ html{
 }
 #page-container{
 width: 80%;  
- margin: 0% 10%;
+display: flex;
+justify-content: center;
  scroll-behavior: none;
 }
 .main-header {
