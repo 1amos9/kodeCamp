@@ -438,7 +438,7 @@ background-color: #FAFAFA;
     top: 100px;
     left: 14%;
 }
-.six-two {
+.comment-two {
     width: 35%;
     height: 40vh;
     background-color: #fff;
@@ -464,12 +464,12 @@ background-color: #FAFAFA;
     text-align: justify;
     float: left;
 }
-.six-three .line {
+.comment-three .line {
     position: absolute;
     top: 480px;
     left: 43%;
 }
-.six-three .six-three-left {
+.comment-three .comment-three-left {
     position: absolute;
     top: 480px;
     left: 79%;
