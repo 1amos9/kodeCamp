@@ -331,12 +331,12 @@ background-color: #FF6433;
     height: 20rem;
 }
 #tools .tools-image .tool-car{
-    width: 14rem;
+    width: 25rem;
     
     height: 20rem;
 }
 #tools .tools-text{
-    width: 20rem;
+    width: 40rem;
     background-color: #FF6433;
     display: block;
     padding: 16px 40px;
@@ -464,12 +464,12 @@ background-color: #FAFAFA;
     text-align: justify;
     float: left;
 }
-.comment-three .line {
+.six-three .line {
     position: absolute;
     top: 480px;
     left: 43%;
 }
-.comment-three .comment-three-left {
+.six-three .six-three-left {
     position: absolute;
     top: 480px;
     left: 79%;
