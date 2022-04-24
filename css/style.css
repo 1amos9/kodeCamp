@@ -5,7 +5,7 @@
     box-sizing: border-box;
     font-family: 'Manrope', sans-serif;
 }
-#page-container{
+.page-container{
 width: 80%;  
  margin:auto;
  scroll-behavior: none;
@@ -167,6 +167,7 @@ width: 80%;
 margin-left: 10px;
 }
 
+
 #quote-section .right-form-section h3{
     font-size: 48px;
 }
@@ -261,14 +262,18 @@ display: flex;
     margin-top: 2rem;
     line-height: 2rem;
 }
+#offers{
+    padding: 1rem 0  2rem 0px ;
+    background-color: #F2F2F2;
+}
 .offers-container{
     display: block;
-    background-color: #F2F2F2;
-    height: 30rem;
+   
+    padding: 60px 0 ;
 }
 .image-offer{
     display: flex;
-    width: 670px;
+   
     flex-wrap: wrap;
     gap: 10px;
       margin: auto;
@@ -291,8 +296,8 @@ display: flex;
 }
 .box-offer{
     padding: 2rem;
-   flex-basis: 10rem;
-   width: 90px;
+   /* flex-basis: 10rem; */
+   width: 23%;
    border: 1px solid rgb(225, 219, 219);
    text-align: center;
    background-color: #fff;
@@ -303,6 +308,15 @@ color: #fff;
 background-color: #FF6433;
 
 }
+.about-learn{
+    display: flex;
+    gap: 10px;
+}
+.image-container{
+    width: 70%;
+    margin: 0 auto;
+
+}
 .offers-container .about-learn a{
         text-decoration: none;
         color: #000;
@@ -310,13 +324,47 @@ background-color: #FF6433;
 }
 .offers-container .about-learn img{
     width: 40px;
+
 }
 .offers-container .about-learn {
       
     margin-top: 0.5rem;
     margin-left: 53.5rem;
 }
-#tools{
+.log-one{
+    height: 232px;
+    background-color: #fff;
+    width: 23%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.logo-offer{
+    width: 80%;
+    margin: 0 auto;
+
+}
+.learn-arrow{
+    display: flex;
+    padding-left: 40rem;
+    justify-content: space-around;
+}
+.texte-header h6{
+   padding-left: 32rem;
+}
+.texte-header h3{
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 76px;  
+    text-align: center;
+}
+
+/* #tools{
+
+} */
+.tools-container{
    margin-top: 5rem;
     display: flex;
     
@@ -324,19 +372,19 @@ background-color: #FF6433;
       
    
 }
-#tools .tools-image{
+.tools-container .tools-image{
     width: 20rem;
   
 }
-#tools .tools-image .car-image{
+.tools-container .tools-image .car-image{
     height: 20rem;
 }
-#tools .tools-image .tool-car{
+.tools-container .tools-image .tools-container-car{
     width: 24rem;
     
     height: 20rem;
 }
-#tools .tools-text{
+.tools-container .tools-text{
     width: 40rem;
     background-color: #FF6433;
     display: block;
@@ -345,7 +393,7 @@ background-color: #FF6433;
     font-size: large;
     padding-top: 5rem;
 }
-#tools .tools-text input[type="button"]{
+.tools-container .tools-text input[type="button"]{
     color: #fff;
     background-color: #000;
     border-radius: 12px;
@@ -362,6 +410,10 @@ background-color: #FF6433;
     justify-content: space-around;
    background-color: #dbd2d2;
    padding-bottom: 2rem;
+}
+.logo-image{
+    display: flex;
+    justify-content: space-around;
 }
 #icon-number .professional{
     height: 5px;
