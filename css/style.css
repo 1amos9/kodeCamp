@@ -149,7 +149,10 @@ width: 80%;
 #quote-section .left-section .image-box img {
     width: 100%;
 }
-
+.text-box .quote-arrow{
+    display: flex;
+    
+}
 
 #quote-section .left-section .text-box {
     width: 50%;
@@ -162,7 +165,7 @@ width: 80%;
 #quote-section .left-section .text-box a{
     text-decoration: none;
     color: #000;
-    font-size: large;
+    font-size: small;
 }
 #quote-section .left-section .text-box #arrow{
 margin-left: 10px;
