@@ -8,7 +8,8 @@
 .page-container{
 width: 80%;  
  margin:auto;
- scroll-behavior: none;
+ justify-content: center;
+ align-items: center;
 }
 .main-header {
     display: flex;
@@ -377,16 +378,17 @@ background-color: #FF6433;
   
 }
 .tools-container .tools-image .car-image{
-    height: 31.5rem;
-   
+    width: 976px;
+    height: 502px;
+    margin-left: 0px;
 }
-.tools-container .tools-image .tools-container-car{
-    width: 24rem;
+.tools-container .tools-image .tool-car{
+    width: 28.4rem;
     
-    height: 20rem;
+    height: 31.5rem;
 }
 .tools-container .tools-text{
-    width: 40rem;
+    width: 60rem;
     background-color: #FF6433;
     display: block;
     padding: 16px 40px;
@@ -400,7 +402,7 @@ background-color: #FF6433;
     border-radius: 12px;
     height: 50px;
     width: 100px;
-    margin-top: 3rem;
+    margin-top: 13rem;
 }
 #icon-number{
    
