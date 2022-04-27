@@ -197,29 +197,11 @@ margin-left: 10px;
 #process .clear-text h1{
     width: 524px;
     height: 228px;
-   margin-top: 80px;
-   
-    font-family: 'Manrope';
-    font-style: normal;
+   margin-top: 80px;    
     font-weight: 800;
     font-size: 58px;
-    line-height: 76px;  
-    letter-spacing: -0.03em;
 }
-#process .button-more input[type=more]{
-    background: #FF6433;
-    align-items: flex-start;
-    padding: 16px 40px;
-    border-radius: 12px;
-    color: #fff;
-    bottom: 68.58%;
-    top: 30%;
-    width: 150px;
-    margin-left: 10%;
-    margin-right: 80.31%;
-    margin-top: 10%;
-    margin-bottom: 20%;
-}
+
 .appointment{
 margin-left: 7rem;
 }
@@ -267,7 +249,7 @@ display: flex;
     line-height: 2rem;
 }
 #offers{
-    padding: 1rem 0  2rem 0px ;
+    padding: 6rem 0  3rem 0px ;
     background-color: #F2F2F2;
 }
 .offers-container{
@@ -298,20 +280,16 @@ display: flex;
     margin-bottom: 10px;
     margin-top: 5px;
 }
-.box-offer{
-    padding: 2rem;
-   /* flex-basis: 10rem; */
-   width: 23%;
-   border: 1px solid rgb(225, 219, 219);
-   text-align: center;
-   background-color: #fff;
+.log-one .box-offer{
+    padding: 5rem;
+  height: 100%;
+   width: 100%;
+  color: #fff;
+   background-color: #FF6433;
 
 }
-#Box-wheel{
-color: #fff;
-background-color: #FF6433;
 
-}
+
 .about-learn{
     display: flex;
     gap: 10px;
@@ -509,7 +487,7 @@ background-color: #FAFAFA;
 .comment-first {
     display: flex;
     float: left;
-    width: 52%;
+    width: 72%;
     text-align: left;
 }
 .comment-first img {
@@ -533,4 +511,145 @@ background-color: #FAFAFA;
     position: absolute;
     top: 460px;
     left: 79%;
+}
+#qestions{
+    width: 100vw;
+    background-color:  #E2E6E9;
+    
+}
+.page-question{
+    width: 90%;  
+ margin:auto;
+ justify-content: center;
+ align-items: center;
+ padding-bottom: 5rem;
+ 
+}
+
+.text-title{
+    padding: 5rem 0 2rem 25rem;
+    font-size: 30px;
+    line-height: 67.2px;
+}
+.question{
+    display: block;
+    gap: 1rem;
+    margin-left: 15%;
+    width: 80%;
+}
+.question-box{
+    background-color:#fff;
+    display: flex;
+    width: 70%;
+    margin-left: 10%;
+    margin-top: 5px;
+    padding: 20px;
+}
+
+.image-logo img{
+   width: 43px;
+   height: 44px;
+  margin-left: 87%;
+
+}
+.image-logo #moins{
+    margin-left: 80%;
+}
+.question-box .text-question{
+    width: 60%;
+}
+.question-box .image-logo{
+    width: 40%;
+}
+
+
+.text-first{
+    font-size: small;
+}
+#touch{
+    display: flex;
+     background-color: #000;
+     color: #fff;
+     width: 100vw;
+     opacity: 0.98;
+     height: 549px;
+}
+#touch .left-side-part{
+    width: 50%;
+}
+#touch .left-side-part{
+    padding: 10rem 0 25rem 4rem;
+    
+}
+#touch .left-side-part .logo-touch{
+    padding-top: 4rem;
+    display: flex;
+}
+#touch .left-side-part .logo-touch img{
+   padding-left: 2rem;
+}
+.text-touch{
+    font-size: 48px;
+    line-height: 67.2px;
+    
+}
+#touch .right-side-part{
+    width: 50%;
+    
+}
+#touch .right-side-part{
+    padding: 10rem 0 20rem 1rem;
+    margin-left: 97px;
+    
+   
+}
+.help{
+    width: 357px;
+    height: 32px;
+    margin-left: 40.83%;
+    margin-right: 40.99%;
+    display: block;
+    margin-top: 2rem;
+   
+}
+.help p{
+
+opacity: 0.6;
+  
+}
+#menu{
+    width: 100vw;
+    background-color: #1E1B1B;
+    color: #fff;
+}
+.last-header{
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5px;
+   
+}
+.last-header .left-section-part{
+    width: 40%;
+}
+.last-header .right-section-part{
+    width: 60%;
+   
+}
+
+.right-section-part {
+   display: flex; 
+    justify-content: space-between;
+    
+}
+.navig ul li {
+    margin-right: 20px;
+    display:inline-flex;
+    color: #fff;
+}
+
+.right-section-part ul li a {
+    text-decoration: none;
+    color: #000;
 }
