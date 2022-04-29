@@ -58,7 +58,6 @@
 
 #introduction-section{
     width: 100%;
-    border: 1px solid #000;
 }
 
 #introduction-section .text-section{
@@ -122,7 +121,6 @@
 
 #quote-section {
     width: 100%;
-    border: 1px solid #000;
     background: #E2E6E9;
     display: flex;
     justify-content: space-between;
@@ -193,7 +191,7 @@
 #process{
    display: flex;
     width: 100%;
-    border: 1px solid #000;
+    
     
 }
 #proces{
@@ -235,7 +233,7 @@
     width: 100%;
         padding: 6rem 0  3rem 0px ;
         background-color: #F2F2F2;
-        border: 1px solid #000;
+      
 }
 .offers-container{
      display: block; 
@@ -327,7 +325,7 @@
 
 #tools{
     
-    border: 1px solid #000;
+   
     position: relative;
     height: 400px;
    
@@ -420,7 +418,6 @@
     display: block;
     text-align: center;
     background-color: #FAFAFA;
-    border: 1px solid #000;
 }
 
 #brands .serve{
