@@ -681,3 +681,253 @@ opacity: 0.6;
     color:#fff;
    
 }
+@media (max-width: 600px){
+    .main-header{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .logo img{
+        width: 5rem;
+    }
+    .right-section{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .right-section .navigation{
+        border: none;
+    }
+    .right-section .navigation ul{
+        flex-direction: column;
+
+    }
+    .right-section ul li{
+        margin: 10px;
+    }
+    .road-assistance{
+        padding-left: 0px;
+    }
+    .road-assistance .icon{
+        margin-right: 5px;
+        font-size: 10px;
+    }
+    .road-assistance .icon img{
+        width: 20px;
+    }
+    .text-section{
+        margin-right: 2rem;
+    }
+    .text-section h1{
+        font-size: 30px;
+        
+    }
+    .orange-btn{
+        font-size: 11px;
+        height: 36px;
+        margin-left: 0%;
+        width: 100px;
+        padding: 10px 14px;
+       
+    }
+    .light-grey{
+        font-size: 10px;
+    }
+    
+    #introduction-section .image-section{
+        height: 42rem;
+    }
+    .time-text{
+        font-size: 15px;
+    }
+    #quote-section .left-section h2 {
+        font-size: 20px;
+    }
+    #quote-section u{
+        font-size: 10px;
+    }
+    #quote-section .right-form-section h3{
+        font-size: 20px;
+        margin-bottom: 5rem;
+    }
+    #quote-section .right-form-section input{
+        width: 100px;
+    }
+    #quote-section .left-section .text-box a{
+        font-size: 10px;
+        color: #2729b7;
+    }
+    #quote-section .left-section .text-box #arrow{
+        width: 30px;
+    }
+    #proces .clear-text h1{
+        font-size: 20px;
+        width: 50px;
+        margin-top: 0px;
+    }
+    #proces .appointment{
+        font-size: 10px;
+    }
+    .appointment .one-get-quote .imsge-one{
+        margin-top: 1px;
+    }
+    .imsge-one img{
+        height: 40px;
+        width: 40px;
+    }
+    .appointment .one-get-quote .imsge-one .line img{
+        height: 40px;
+        width: 2px;
+        margin-left: 1rem;
+    }
+    .texte-header h6{
+        padding-left: 6rem;
+    }
+    .texte-header h3{
+        font-size: 20px;
+        text-align: center;
+        line-height: 2rem;
+    }
+    .log-one{
+        height: 110px;
+        width: 6rem;
+        flex-direction: column;
+    }
+    .log-one .box-offer{
+        padding: 0;
+    }
+    .learn{
+        display: none;
+    }
+    .arrow{
+        display: none;
+    }
+    #tools{
+        height: 300px;
+    }
+    .image-offer{
+        margin-left: 10px;
+    }
+    .car-image img {
+        width: 190px;
+        height: 300px;
+    }
+    .tools-container .tools-text{
+        width: 165px;
+        height: 300px;
+        left: 9%;
+    }
+    .tools-text h1{
+        font-size: 10px;
+    }
+    input[type="button"]{
+        padding: .2rem 1.3rem;
+        margin-top: 4rem;
+        margin-left: 0px;
+    }
+    .tool-car img{
+        width: 170px;
+        height: 300px;
+    }
+    .nubmers p{
+        font-size: 10px;
+    }
+    .nubmers h2{
+        font-size: 20px;
+    }
+    #brands{
+        width: 100%;
+    }
+    #brands .serve{
+        font-size: 20px;
+        letter-spacing: 0rem;
+        font-weight: none;
+        margin-top: 1rem;
+    }
+    .logo-1 img{
+        width: 100px;
+        margin-left: 10px;
+    }
+    #brands .logo-brands{
+        margin-left: 20px;
+    }
+    .about{
+        height: 50vh;
+    }
+    .about h1{
+        font-size: 20px;
+    }
+    .comment{
+        width: 55%;
+        height: 26vh;
+        font-size: 10px;
+        margin: 1rem;
+        margin-left: 1px;
+        position: initial;
+    }
+    .comment-two{
+        width: 55%;
+        height: 26vh;
+        font-size: 10px;
+        margin: 1rem;
+        margin-left: 1px;
+        position: initial;
+    }
+    #comment-first {
+        padding: 4px;
+    }
+    .comment-three{
+        display: none;
+    }
+    .text-title{
+        font-size: 20px;
+        line-height: 20px;
+        padding-left: 45px;
+    }
+    .question-box{
+        width: 100%;
+        margin-left: 0%;
+        margin-top: 2px;
+    }
+    .image-logo #moins{
+        margin-left: 60%;
+        width: 24px;
+        height: 30px;
+    }
+    .image-logo img{
+        margin-left: 80%;
+        width: 24px;
+        height: 30px;
+    }
+    .text-touch{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    #touch .left-side-part{
+        padding: 10rem 1rem;
+        width: 30%;
+    }
+    #touch .left-side-part .logo-touch{
+        padding-top: 7rem;
+    }
+    #touch .left-side-part .logo-touch img{
+        padding-left: 1rem;
+        margin-left: .5%;
+    }
+    #touch .right-side-part{
+        padding: rem 2rem;
+        margin-left: 70px;
+    }
+    .help{
+        width: 175px;
+        margin-right: 0%;
+        display: initial;
+        margin-top: 2rem;
+        margin-left: 0%;
+    }
+    .navig ul li{
+        display: contents;
+    }
+    .right-section-part ul li {
+        margin-right: 7px;
+    }
+
+}

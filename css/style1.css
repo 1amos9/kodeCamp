@@ -55,8 +55,25 @@ width: 80%;
     display: flex;
 }
 
-#services{
-               display: flex;
-}
 
- 
+.details-services{
+    display: flex;
+    flex-direction: row;
+}
+.right-sectionpart{
+width: 40%;
+}
+.left-side-part{
+       background-color: #000;
+    color: #fff;
+}
+.information-car a{
+    background-color: orangered;
+    cursor: pointer;
+    
+}
+.pic img{
+    height: 22em;
+    flex-basis: 10%;
+    z-index: -1;
+}
