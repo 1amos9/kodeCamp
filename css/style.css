@@ -5,7 +5,9 @@
     box-sizing: border-box;
     font-family: 'Manrope';
 }
-
+.navigation ul i{
+    display: none;
+}
 .page-container{
     width: 80%;  
   margin: auto;
@@ -58,6 +60,7 @@
 
 #introduction-section{
     width: 100%;
+    padding: 0px;
 }
 
 #introduction-section .text-section{
@@ -89,9 +92,10 @@
     padding: 16px 40px;
     text-decoration: none;
     font-size: 18px;
-    margin-top: 35px;
+    margin-left: 5%;
     display: inline-block;
     color: #fff;
+    margin-top: 3rem;
 }
 
 .time-section {
@@ -681,7 +685,16 @@ opacity: 0.6;
     color:#fff;
    
 }
-@media (max-width: 600px){
+@media (max-width: 425px){
+    header {
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+    }
+   
+    .page-container{
+        width: 358px;
+    }
     .main-header{
         flex-direction: column;
         align-items: flex-start;
@@ -700,7 +713,13 @@ opacity: 0.6;
         flex-direction: column;
 
     }
+    .navigation ul i{
+        display: block;
+        position: absolute;
+        right: 0;
+    }
     .right-section ul li{
+        display: none;
         margin: 10px;
     }
     .road-assistance{
@@ -731,9 +750,16 @@ opacity: 0.6;
     .light-grey{
         font-size: 10px;
     }
+    #introduction-section{
+        width: 358px;
+    }
+    #introduction-section .text-section{
+        width: 179px;
+    }
     
     #introduction-section .image-section{
-        height: 42rem;
+        height: 22rem;
+        width: 179px;
     }
     .time-text{
         font-size: 15px;
@@ -749,7 +775,7 @@ opacity: 0.6;
         margin-bottom: 5rem;
     }
     #quote-section .right-form-section input{
-        width: 100px;
+        width: 140px;
     }
     #quote-section .left-section .text-box a{
         font-size: 10px;
@@ -807,25 +833,31 @@ opacity: 0.6;
         margin-left: 10px;
     }
     .car-image img {
-        width: 190px;
+        width: 11rem;
         height: 300px;
     }
+    .tools-container{
+        width: 358px;
+    }
     .tools-container .tools-text{
-        width: 165px;
+        width: 119.3px;
         height: 300px;
-        left: 9%;
+        left: 22%;
     }
     .tools-text h1{
         font-size: 10px;
     }
-    input[type="button"]{
-        padding: .2rem 1.3rem;
-        margin-top: 4rem;
-        margin-left: 0px;
+    .tools-container .tools-text input[type="button"]{
+        padding: 0rem;
+        margin-top: 2rem;
+        margin-right: 8rem;
+        border-radius: 3px;
+        font-size: 12px;
     }
     .tool-car img{
-        width: 170px;
+        width: 11.4rem;
         height: 300px;
+       
     }
     .nubmers p{
         font-size: 10px;
