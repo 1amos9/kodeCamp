@@ -5,7 +5,7 @@
     box-sizing: border-box;
     font-family: 'Manrope';
 }
-.navigation ul i{
+.navigation i{
     display: none;
 }
 .page-container{
@@ -235,7 +235,7 @@
 
 #offers{
     width: 100%;
-        padding: 6rem 0  3rem 0px ;
+        padding: 2rem 0  3rem 0px ;
         background-color: #F2F2F2;
       
 }
@@ -685,22 +685,18 @@ opacity: 0.6;
     color:#fff;
    
 }
-@media (max-width: 425px){
-    header {
-        width: 100%;
-        flex-direction: column;
-        text-align: center;
-    }
-   
+@media (max-width: 480px) {
+       
     .page-container{
-        width: 358px;
+        width: 80%;
     }
     .main-header{
         flex-direction: column;
         align-items: flex-start;
     }
     .logo img{
-        width: 5rem;
+        margin-left: 0%;
+       
     }
     .right-section{
         flex-direction: column;
@@ -713,25 +709,29 @@ opacity: 0.6;
         flex-direction: column;
 
     }
-    .navigation ul i{
-        display: block;
+    #hambuger{
+        display: flex;
         position: absolute;
-        right: 0;
+        right: 2rem;
+        top: 27px;
+       color: #8fc52a;
     }
-    .right-section ul li{
+
+    #close{
         display: none;
-        margin: 10px;
+        position: absolute;
+        right: 2rem;
     }
+
+    #listItems{
+        display: none;
+    }
+
     .road-assistance{
-        padding-left: 0px;
+        display: none
     }
-    .road-assistance .icon{
-        margin-right: 5px;
-        font-size: 10px;
-    }
-    .road-assistance .icon img{
-        width: 20px;
-    }
+
+   
     .text-section{
         margin-right: 2rem;
     }
@@ -745,52 +745,89 @@ opacity: 0.6;
         margin-left: 0%;
         width: 100px;
         padding: 10px 14px;
-       
+       margin-top: 1rem;
+    }
+    .text-section .image-box{
+        width: 7%;
+    }
+    .time-section{
+        margin-top: 20px;
     }
     .light-grey{
         font-size: 10px;
     }
     #introduction-section{
-        width: 358px;
+        width: 100%;
+    }
+    .flex{
+        flex-direction: column;
     }
     #introduction-section .text-section{
-        width: 179px;
+        width: 100%;
     }
     
     #introduction-section .image-section{
-        height: 22rem;
-        width: 179px;
+        height: 25rem;
+        width: 100%;
+        min-height: 0px;
     }
     .time-text{
         font-size: 15px;
     }
+    #quote-section .left-section, #quote-section .right-form-section{
+        width: 80%;
+        margin: auto;
+    }
     #quote-section .left-section h2 {
         font-size: 20px;
+        text-transform: uppercase;
+        margin-bottom: 0px;
+    }
+    #quote-section .left-section .image-box{
+        display: none;
     }
     #quote-section u{
         font-size: 10px;
     }
     #quote-section .right-form-section h3{
-        font-size: 20px;
-        margin-bottom: 5rem;
+        font-size: 25px;
+        margin-bottom: 1rem;
     }
     #quote-section .right-form-section input{
-        width: 140px;
+        width: 300px;
+        padding: 5px;
+    }
+    #quote-section .left-section .text-box{
+        width: 100%;
+        margin: 5px;
     }
     #quote-section .left-section .text-box a{
-        font-size: 10px;
+        font-size: 20px;
         color: #2729b7;
     }
     #quote-section .left-section .text-box #arrow{
-        width: 30px;
+        width: 60px;
+        height: 10px;
+    }
+    #proces{
+        flex-direction: column;
+        padding: 3rem 0;
+    }
+    .clear-text{
+        width: 100%;
     }
     #proces .clear-text h1{
         font-size: 20px;
-        width: 50px;
+        width: 70px;
         margin-top: 0px;
+        line-height: 19px;
+        height: 110px;
     }
     #proces .appointment{
         font-size: 10px;
+        width: 100%;
+        margin: 0;
+        margin-top: 2rem;
     }
     .appointment .one-get-quote .imsge-one{
         margin-top: 1px;
@@ -827,36 +864,43 @@ opacity: 0.6;
         display: none;
     }
     #tools{
-        height: 300px;
+        height: 600px;
+        width: 100%;
     }
     .image-offer{
         margin-left: 10px;
     }
     .car-image img {
-        width: 11rem;
-        height: 300px;
+        width: 100%;
+        height: 200px;
     }
     .tools-container{
         width: 358px;
     }
     .tools-container .tools-text{
-        width: 119.3px;
-        height: 300px;
-        left: 22%;
+        width: 100%;
+        height: 200px;
+        left: 0%;
+        position: absolute;
+        top: 190px;
     }
     .tools-text h1{
-        font-size: 10px;
+        font-size: 20px;
+    }
+    .tools-container{
+        width: 100%;
+        flex-direction: column;
     }
     .tools-container .tools-text input[type="button"]{
-        padding: 0rem;
+       
         margin-top: 2rem;
         margin-right: 8rem;
         border-radius: 3px;
         font-size: 12px;
     }
     .tool-car img{
-        width: 11.4rem;
-        height: 300px;
+        width: 100%;
+        height: 400px;
        
     }
     .nubmers p{
