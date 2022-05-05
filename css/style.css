@@ -824,7 +824,7 @@ opacity: 0.6;
         height: 110px;
     }
     #proces .appointment{
-        font-size: 10px;
+        font-size: 17px;
         width: 100%;
         margin: 0;
         margin-top: 2rem;
@@ -833,13 +833,13 @@ opacity: 0.6;
         margin-top: 1px;
     }
     .imsge-one img{
-        height: 40px;
-        width: 40px;
+        height: 60px;
+        width: 60px;
     }
     .appointment .one-get-quote .imsge-one .line img{
-        height: 40px;
+        height: 50px;
         width: 2px;
-        margin-left: 1rem;
+        margin-left: 1.7rem;
     }
     .texte-header h6{
         padding-left: 6rem;
