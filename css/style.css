@@ -1100,6 +1100,7 @@ opacity: 0.6;
         padding-top: 9rem;
         margin-left: 0px;
     }
+    
     #brands .logo-brands{
         padding: 10%;
     }
@@ -1135,7 +1136,7 @@ opacity: 0.6;
         margin-left: 1px;
     }
     .help{
-        width: 180%;
+        width: 50%;
     }
 
 }
