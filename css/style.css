@@ -336,7 +336,7 @@
 }
 .tools-container{
     display: flex;
-    width: 1366px;
+    width: 100%;
     position: absolute;
     left: 0;
     
@@ -362,7 +362,7 @@
     height: 400px;
 }
 .tool-car img{
-    width: 860px;
+    width: 845px;
    
     height:400px;
 }
@@ -523,7 +523,7 @@ margin-left: 38rem;
 }
 
 #qestions{
-    width: 100vw;
+    width: 100%;
     background-color:  #E2E6E9;
     
 }
@@ -586,7 +586,7 @@ margin-left: 38rem;
     display: flex;
      background-color: #000;
      color: #fff;
-     width: 100vw;
+     width: 100%;
      opacity: 0.98;
      height: 549px;
 }
@@ -687,7 +687,7 @@ opacity: 0.6;
 }
 /* media query for phone layer out */
 @media (max-width: 412px) {
-       
+      
     .page-container{
         width: 80%;
     }
@@ -1047,9 +1047,18 @@ opacity: 0.6;
         margin-left: 0px;
         border: none;
     }
+    .appointment .one-get-quote{
+        gap: 10px;
+    }
+    .appointment .one-get-quote .imsge-one{
+        margin-top: 0px;
+    }
     .appointment .one-get-quote .imsge-one .line img{
         height: 4rem;
         width: 2px;
+    }
+    .texte-header h6{
+        padding-left: 25rem;
     }
     #quote-section .left-section .text-box a{
         font-size: 15px;
