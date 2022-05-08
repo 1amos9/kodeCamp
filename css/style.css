@@ -686,7 +686,7 @@ opacity: 0.6;
    
 }
 /* media query for phone layer out */
-@media (max-width: 576px) {
+@media (max-width: 412px) {
        
     .page-container{
         width: 80%;
@@ -820,7 +820,7 @@ opacity: 0.6;
     }
     #proces .clear-text h1{
         font-size: 20px;
-        width: 70px;
+        width: 100%;
         margin-top: 0px;
         line-height: 27px;
         height: 60px;
@@ -832,14 +832,14 @@ opacity: 0.6;
         margin-top: 2rem;
     }
     .text-one{
-        font-size: 20px;
+        font-size: 15px;
         margin-left: 10px;
     }
     .text-one p{
         font-size: 15px;
     }
     .appointment .one-get-quote .imsge-one{
-        margin-top: 10px;
+        margin-top: 1px;
     }
     .imsge-one img{
         height: 40px;
@@ -851,7 +851,7 @@ opacity: 0.6;
         margin-left: 1rem;
     }
     .texte-header h6{
-        padding-left: 10rem;
+        padding-left: 8rem;
     }
     .texte-header h3{
         font-size: 20px;
@@ -873,7 +873,7 @@ opacity: 0.6;
         display: none;
     }
     #tools{
-        height: 800px;
+        height: 500px;
         width: 100%;
     }
     .image-offer{
@@ -889,8 +889,8 @@ opacity: 0.6;
         
     }
     .tools-container .tools-text{
-        width: 100%;
-        height: 200px;
+        width: 25.7rem;
+        height: 13rem;
         left: 0%;
         position: absolute;
         top: 190px;
@@ -911,7 +911,7 @@ opacity: 0.6;
     }
     .tool-car img{
         width: 100%;
-        height: 400px;
+        height: 20rem;
        
     }
     .nubmers p{
@@ -937,10 +937,10 @@ opacity: 0.6;
         margin-left: 20px;
     }
     .about{
-        height: 50vh;
+        height: 34vh;
     }
     .about h1{
-        font-size: 20px;
+        font-size: 15px;
     }
     .comment{
         width: 55%;
@@ -1019,7 +1019,7 @@ opacity: 0.6;
 
 }
 /* media querry for tablet */
-@media(max-width: 1030px){
+@media(min-width: 420px) and (max-width: 1024px) {
     main{
         width: 100%;
     }
@@ -1040,7 +1040,7 @@ opacity: 0.6;
         height: 10px;
         position: absolute;
         left: 80%;
-        top: 295%;
+        top: 333%;
         width: 50px;
     }
     .orange-btn{
@@ -1077,7 +1077,7 @@ opacity: 0.6;
         width: 9rem;
     }
     #tools {
-        height: 1000px;
+        height: 800px;
         
         width: 100%;
     }
@@ -1085,24 +1085,20 @@ opacity: 0.6;
         flex-direction: column;
         width: 100%;
     }
-    .tools-container .tools-text{
-        position: unset;
-        width: 40%;
-    }
     .car-image img {
         width: 100%;
         height: 300px;
     }
     .tools-container .tools-text{
-        position: initial;
-        left: 0%;
-        width: 100%;
-       
+        width: 50.5rem;
+        left: 0rem;
+        top: 17rem;
+        height: 20.5rem;
     }
 .tool-car img{
-        width: 100%;
-        height: 300px;
-       
+       width: 50.5rem;
+        height: 500px;
+       margin-bottom: 10px;
     }
     #touch .right-side-part{
         padding-right: 0%;
@@ -1148,35 +1144,4 @@ opacity: 0.6;
         width: 50%;
     }
 
-}
-@media(max-width: 1300px){
-    .tools-container .tools-text{
-    width: 45rem;
-    left: 190px;
-}
-.tool-car img{
-    width: 47.7rem;
-}
-.help{
-    margin-left: 4%;
-    
-}
-.texte-header h6{
-    font-size: 15px;
-}
-.image-offer{
-    gap: 15px;
-}
-element {
-    width: 100%;
-  }
-  .tools-container{
-      width: 100%;
-  }
-  
-  .comment-three{
-    width: 100%;
-    margin-block-end: auto;
-    margin-left: 27rem
-  }
 }
