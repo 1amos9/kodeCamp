@@ -690,6 +690,7 @@ opacity: 0.6;
       
     .page-container{
         width: 80%;
+        height: 100%;
     }
     .main-header{
         flex-direction: column;
@@ -937,14 +938,14 @@ opacity: 0.6;
         margin-left: 20px;
     }
     .about{
-        height: 34vh;
+        height: 80vh;
     }
     .about h1{
         font-size: 15px;
     }
     .comment{
         width: 55%;
-        height: 20vh;
+        height: 50vh;
         font-size: 10px;
         margin: 1rem;
         margin-left: 1px;
@@ -952,7 +953,7 @@ opacity: 0.6;
     }
     .comment-two{
         width: 55%;
-        height: 20vh;
+        height: 50vh;
         font-size: 10px;
         margin: 1rem;
         margin-left: 1px;
@@ -1010,11 +1011,20 @@ opacity: 0.6;
         margin-top: 2rem;
         margin-left: 0%;
     }
+    .last-header .last-header img{
+        width:90px
+    }
+
     .navig ul li{
         display: contents;
     }
     .right-section-part ul li {
         margin-right: 7px;
+    }
+    .right-section-part .navig{
+        font-size: 10px}
+    .copy p{
+        font-size:10px;
     }
 
 }
