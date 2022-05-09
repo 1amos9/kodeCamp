@@ -1030,7 +1030,7 @@ opacity: 0.6;
 
 }
 /* media querry for tablet */
-@media(min-width: 440px) and (max-width: 1024px) {
+@media(min-width: 420px) and (max-width: 1024px) {
     main{
         width: 100%;
     }
