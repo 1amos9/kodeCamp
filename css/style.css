@@ -697,34 +697,6 @@ opacity: 0.6;
         flex-direction: column;
         align-items: flex-start;
     }
-    #introduction-section{
-        width: 100%;
-    }
-    #quote-section{
-        width: 100%;
-    }
-    #process{
-        width: 100%;
-    }
-    #offers{
-        width: 100%;
-    }
-    #tools{
-        width: 100%;
-    }
-    #brands{
-        width: 100%;
-    }
-    #about{
-        width: 100%;
-    }
-    #qestions{
-        width: 100%;
-    }
-    #touch{
-        width: 100%;
-    }
-    #menu{width: 100%;}
     .logo img{ 
         margin-left: 0%;
        
@@ -767,16 +739,17 @@ opacity: 0.6;
         margin-right: 2rem;
     }
     .text-section h1{
-        font-size: 30px;
-        
+        font-size: 20px;
+        margin-left: 10px;
     }
     .orange-btn{
         font-size: 11px;
         height: 36px;
-        margin-left: 0%;
+        margin-left: 10px;
         width: 100px;
         padding: 10px 14px;
        margin-top: 1rem;
+       border: none;
     }
     .text-section .image-box{
         width: 7%;
@@ -810,10 +783,18 @@ opacity: 0.6;
         margin: auto;
     }
     #quote-section .left-section h2 {
-        font-size: 20px;
+        font-size: 15px;
         text-transform: uppercase;
         margin-top: 10px;
-        margin-left: 30px;
+        margin-left: 10px;
+    }
+    #quote-section .left-section .text-box h5{
+        font-size: 15px;
+        margin-left: 10px;
+    }
+    #quote-section .left-section .text-box p{
+        font-size: 15px;
+        
     }
     #quote-section .left-section .image-box{
         display: none;
@@ -824,6 +805,7 @@ opacity: 0.6;
     #quote-section .right-form-section h3{
         font-size: 25px;
         margin-bottom: 1rem;
+        margin-left: 10px;
     }
     #quote-section .right-form-section input{
         width: 100%;
@@ -834,12 +816,16 @@ opacity: 0.6;
         margin: 5px;
     }
     #quote-section .left-section .text-box a{
-        font-size: 20px;
+        font-size: 14px;
         color: #2729b7;
     }
     #quote-section .left-section .text-box #arrow{
-        width: 60px;
+        width: 50px;
         height: 10px;
+    }
+    
+    .text-box .quote-arrow{
+        margin-left: 9px;
     }
     #proces{
         flex-direction: column;
@@ -849,11 +835,16 @@ opacity: 0.6;
         width: 100%;
     }
     #proces .clear-text h1{
-        font-size: 20px;
+        font-size: 15px;
         width: 100%;
         margin-top: 0px;
-        line-height: 27px;
-        height: 60px;
+        line-height: 15px;
+        height: 20px;
+        margin-left: 10px;
+    }
+    #proces .clear-text p{
+        font-size: 15px;
+        margin-left: 8px;
     }
     #proces .appointment{
         font-size: 17px; 
@@ -861,12 +852,18 @@ opacity: 0.6;
         margin: 0;
         margin-top: 2rem;
     }
+    .button-more a{
+        margin-left: 15px;
+    }
     .text-one{
         font-size: 15px;
         margin-left: 10px;
     }
     .text-one p{
         font-size: 15px;
+    }
+    .appointment .one-get-quote{
+        margin-left: 10px;
     }
     .appointment .one-get-quote .imsge-one{
         margin-top: 1px;
@@ -881,12 +878,13 @@ opacity: 0.6;
         margin-left: 1rem;
     }
     .texte-header h6{
-        padding-left: 8rem;
+        padding-left: 5rem;
     }
     .texte-header h3{
-        font-size: 20px;
+        font-size: 15px;
         text-align: center;
-        line-height: 2rem;
+        line-height: 20px;
+        margin-bottom: 10px;
     }
     .log-one{
         height: 110px;
@@ -907,7 +905,7 @@ opacity: 0.6;
         width: 100%;
     }
     .image-offer{
-        margin-left: 10px;
+        margin-left: 49px;
         gap: 15px;
     }
     .car-image img {
@@ -954,13 +952,15 @@ opacity: 0.6;
         width: 100%;
     }
     #brands .serve{
-        font-size: 20px;
-        letter-spacing: 0rem;
+         letter-spacing: 0rem;
         font-weight: none;
         margin-top: 1rem;
     }
+    .serve h1{
+        font-size: 25px;
+    }
     .logo-1 img{
-        width: 8rem;
+        width: 100px;
         margin-left: 10px;
     }
     #brands .logo-brands{
@@ -971,6 +971,7 @@ opacity: 0.6;
     }
     .about h1{
         font-size: 15px;
+        padding-top: 10px;
     }
     .comment{
         width: 55%;
@@ -995,9 +996,11 @@ opacity: 0.6;
         display: none;
     }
     .text-title{
-        font-size: 20px;
+        font-size: 16px;
         line-height: 20px;
         padding-left: 45px;
+        padding-top: 10px;
+        padding-bottom: 2px;
     }
     .question-box{
         width: 100%;
@@ -1018,16 +1021,23 @@ opacity: 0.6;
         font-size: 20px;
         line-height: 30px;
     }
+    .text-touch h3{
+        font-size: 16px;
+    }
+    #touch{
+        height: 400px;
+    }
     #touch .left-side-part{
         padding: 10rem 1rem;
         width: 30%;
     }
     #touch .left-side-part .logo-touch{
-        padding-top: 7rem;
+        padding-top: 30px;
     }
     #touch .left-side-part .logo-touch img{
-        padding-left: 1rem;
-        margin-left: .5%;
+        padding-left: 2rem;
+        margin-left: 0%;
+        margin-top: 0px;
     }
     #touch .right-side-part{
         padding: rem 2rem;
@@ -1039,6 +1049,7 @@ opacity: 0.6;
         display: initial;
         margin-top: 2rem;
         margin-left: 0%;
+        font-size: 12px;
     }
     .last-header .last-header img{
         width:90px
@@ -1054,6 +1065,9 @@ opacity: 0.6;
         font-size: 10px}
     .copy p{
         font-size:10px;
+    }
+    .menu-container{
+        height: 80px;
     }
 
 }
