@@ -697,7 +697,7 @@ opacity: 0.6;
         flex-direction: column;
         align-items: flex-start;
     }
-    .logo img{
+    .logo img{ 
         margin-left: 0%;
        
     }
