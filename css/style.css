@@ -687,7 +687,7 @@ opacity: 0.6;
 }
 
 /* media query for phone layer out */
-@media (max-width: 420px) {
+@media (max-width: 330px) {
       
     .page-container{
         width: 80%;
