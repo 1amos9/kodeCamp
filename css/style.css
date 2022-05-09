@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Poppins&display=swap');
-@media(max-width: 2000px){
 * {
     margin: 0;
     padding: 0;
@@ -686,9 +685,9 @@ opacity: 0.6;
     color:#fff;
    
 }
-}
+
 /* media query for phone layer out */
-@media (max-width: 412px) {
+@media (max-width: 420px) {
       
     .page-container{
         width: 80%;
@@ -1174,7 +1173,7 @@ opacity: 0.6;
         width: 100%;
     }
 }
-@media(min-width: 1026px) and (max-width: 1334px){
+@media(min-width: 1026px) and (max-width: 1334px){ 
     .tools-container .tools-text{
         width: 70%;
     }
